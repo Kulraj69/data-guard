@@ -31,3 +31,13 @@ with policy controls for high-stakes flows.
 ```
 python3 -m unittest discover -s tests
 ```
+
+## Demo
+
+`demo.py` reproduces the recorded demo run end to end, offline (standard
+library only, no model calls):
+
+    python demo.py
+
+It executes the library's real code path and prints the same output shown in
+the recorded demo video.
